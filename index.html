@@ -4,9 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Image</title>
+    <style>
+        img {
+            float: left;
+            margin-right: 20px; /* Space between the image and text */
+            width: auto; /* Keeps the image at its original size */
+            height: auto;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6; /* Better text readability */
+        }
+        h1 {
+            margin-top: 0; /* Removes extra space above the heading */
+        }
+    </style>
 </head>
 <body>
-    <h1>Below is a diagram of the task. Remember you should drive *clockwise* around the circle</h1>
-    <img src="circle_drill_diagram.png" alt="My Image" style="max-width:100%;height:auto;">
+    <img src="circle_drill_diagram.png" alt="My Image">
+    <h1>Below is a diagram of the task. Remember you should drive <em>clockwise</em> around the circle.</h1>
 </body>
 </html>
